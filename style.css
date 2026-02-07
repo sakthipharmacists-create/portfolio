@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f6f8;
+}
+
+header {
+    background: #1f3c88;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.profile-pic {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+section {
+    background: white;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+section h2 {
+    border-bottom: 2px solid #1f3c88;
+}
+
+.skills span {
+    display: inline-block;
+    background: #e3e8ff;
+    padding: 6px 12px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+footer {
+    background: #1f3c88;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
