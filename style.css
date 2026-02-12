@@ -60,3 +60,8 @@ footer {
   margin-bottom: 10px;
   color: #0a2a66;
 }
+.section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 60px 20px;
+}
