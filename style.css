@@ -1,16 +1,25 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', sans-serif;
     margin: 0;
-    background: #f4f6f8;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    background-attachment: fixed;
+    color: #ffffff;
 }
-
 header {
-    background: #1f3c88;
-    color: white;
+    background: transparent;
     text-align: center;
-    padding: 30px;
+    padding: 40px 20px;
 }
 
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    opacity: 0.8;
+}
 .profile-pic {
     width: 130px;
     height: 130px;
@@ -20,11 +29,18 @@ header {
 }
 
 section {
-    background: white;
-    width: 80%;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.08);
+    width: 85%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 15px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    transition: 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
 }
 
 section h2 {
@@ -33,17 +49,25 @@ section h2 {
 
 .skills span {
     display: inline-block;
-    background: #e3e8ff;
-    padding: 6px 12px;
-    margin: 5px;
-    border-radius: 20px;
+    background: rgba(0, 212, 255, 0.2);
+    padding: 8px 15px;
+    margin: 6px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.skills span:hover {
+    background: #00d4ff;
+    color: black;
 }
 
 footer {
-    background: #1f3c88;
-    color: white;
+    background: transparent;
+    color: #ffffff;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
+    margin-top: 40px;
+    opacity: 0.7;
 }
 .skills-container {
   display: flex;
@@ -65,3 +89,4 @@ footer {
   margin: auto;
   padding: 60px 20px;
 }
+
